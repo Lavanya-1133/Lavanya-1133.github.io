@@ -44,10 +44,3 @@ with:
 For a short video/GIF demo, an `<img>` tag works fine for a `.gif`; for
 `.mp4` clips use a `<video>` tag with `controls`.
 
-## Publishing
-
-See the step-by-step guide in the chat where this was generated, or in
-short: push these files to a repository named
-`<your-github-username>.github.io`, and GitHub will serve them at
-`https://<your-github-username>.github.io` within a minute or two of the
-push landing on the default branch.

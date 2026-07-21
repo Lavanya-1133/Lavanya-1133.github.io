@@ -1,58 +1,63 @@
-# lavanya-bhatnagar.github.io
+# Lavanya Bhatnagar | Robotics Portfolio
 
-Personal portfolio site, styled as a technical dossier (a blueprint cover
-sheet followed by numbered specification sheets) to match a formal,
-engineering register.
+Personal portfolio showcasing my work in **robotics, autonomous systems, computer vision, and embedded systems**.
 
-## Files
+I am a final-year Mechanical Engineering undergraduate at the **Indian Institute of Technology Indore (IIT Indore)**, interested in developing autonomous aerial and ground robotic systems and bridging the gap between simulation and real-world deployment.
 
-- `index.html` — all page content and structure
-- `style.css` — all styling (colours, type, layout live in `:root` at the top)
-- `script.js` — two small behaviours: nav border on scroll, fade-in on scroll
-- `README.md` — this file
-- `assets/portrait-header.jpg` — your photo beside your name in the header
-- `assets/profile-photo.jpg` — your photo at the top of the Profile section
+## Portfolio
 
-There is no build step. It's plain HTML/CSS/JS, so it can be opened directly
-in a browser or hosted as-is on GitHub Pages.
+The website highlights my:
 
-## Things still marked for you to fill in
+- Robotics and autonomous systems projects
+- Research and internship experience
+- Work in aerial and ground robotics
+- Technical skills and tools
+- Leadership experience
+- Competitions and achievements
 
-Search the files for `[Add dates]` and `[Add ...]` — these are placeholders,
-styled in brass/amber so they're easy to spot on the live page too:
+## Areas of Interest
 
-- **Experience → SURGE internship**: exact dates, and 1–2 lines on your
-  specific contribution (estimation/control approach, sensors, validation).
-- **Projects → IRoC-U**: exact dates, and any further detail on the VIO
-  implementation you'd like to include (framework used, how it was
-  validated, etc).
-- **Profile section photo caption**: currently says
-  `[Add a caption — e.g. where/when this was taken]` — replace with the
-  real context for that photo.
+- Autonomous Aerial & Ground Robotics
+- Autonomous Navigation & Control
+- Robot Perception & Computer Vision
+- Embedded Systems
+- Multi-Robot Systems
+- Real-World Robotics Integration
 
-## Adding project media
+## Technical Stack
 
-Each project card has a dashed placeholder box:
+**Robotics:** ROS 2, PX4, Gazebo, Nav2, MoveIt 2  
+**Programming:** Python, C++, MATLAB  
+**Perception:** OpenCV, YOLO, ArUco  
+**Hardware:** NVIDIA Jetson Orin Nano, Pixhawk, ESP32, Arduino  
+**Tools:** Git, Linux, QGroundControl
 
-```html
-<div class="figure-slot"><span>Fig. 0X — Media Pending</span></div>
-```
+## Featured Work
 
-To swap in a real image, create an `assets/` folder next to `index.html`,
-drop your file in (e.g. `assets/nidar-01.jpg`), and replace the div above
-with:
+Some of the projects featured in the portfolio include:
 
-```html
-<img src="assets/nidar-01.jpg" alt="Describe what the image shows">
-```
+- **Autonomous Precision Landing on Moving Platforms**
+- **IRoC-U Autonomous Rover Development**
+- **NIDAR Dual-Drone Framework**
+- **Autonomous Mobile Robot**
+- **Multi-Robot Mapping**
+- **LifeBlink Smart Eyewear**
 
-For a short video/GIF demo, an `<img>` tag works fine for a `.gif`; for
-`.mp4` clips use a `<video>` tag with `controls`.
+## Website
 
-## Publishing
+**Live Portfolio:**  
+https://lavanya-1133.github.io
 
-See the step-by-step guide in the chat where this was generated, or in
-short: push these files to a repository named
-`<your-github-username>.github.io`, and GitHub will serve them at
-`https://<your-github-username>.github.io` within a minute or two of the
-push landing on the default branch.
+## Repository Structure
+
+```text
+Lavanya-1133.github.io/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+│
+└── assets/
+    └── images/
+        └── portfolio images

@@ -10,6 +10,8 @@ engineering register.
 - `style.css` — all styling (colours, type, layout live in `:root` at the top)
 - `script.js` — two small behaviours: nav border on scroll, fade-in on scroll
 - `README.md` — this file
+- `assets/portrait-header.jpg` — your photo beside your name in the header
+- `assets/profile-photo.jpg` — your photo at the top of the Profile section
 
 There is no build step. It's plain HTML/CSS/JS, so it can be opened directly
 in a browser or hosted as-is on GitHub Pages.
@@ -24,6 +26,9 @@ styled in brass/amber so they're easy to spot on the live page too:
 - **Projects → IRoC-U**: exact dates, and any further detail on the VIO
   implementation you'd like to include (framework used, how it was
   validated, etc).
+- **Profile section photo caption**: currently says
+  `[Add a caption — e.g. where/when this was taken]` — replace with the
+  real context for that photo.
 
 ## Adding project media
 
@@ -44,3 +49,10 @@ with:
 For a short video/GIF demo, an `<img>` tag works fine for a `.gif`; for
 `.mp4` clips use a `<video>` tag with `controls`.
 
+## Publishing
+
+See the step-by-step guide in the chat where this was generated, or in
+short: push these files to a repository named
+`<your-github-username>.github.io`, and GitHub will serve them at
+`https://<your-github-username>.github.io` within a minute or two of the
+push landing on the default branch.
